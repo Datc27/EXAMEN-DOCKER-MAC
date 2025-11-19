@@ -1,7 +1,6 @@
-````markdown
 # EQUIPO 4
 ## Despliegue de LMS Moodle con Docker
-
+-----
 Este proyecto levanta un entorno completo de Moodle con base de datos MariaDB utilizando Docker Compose.
 
 ### 🚀 Instalación Rápida
@@ -25,7 +24,7 @@ El script se encargará de levantar los servicios automáticamente.
 ### 🌐 Acceso al sitio
 
 Una vez que termine de cargar (puede tardar unos minutos la primera vez), accede a:
-👉 [http://localhost:8080](https://www.google.com/search?q=http://localhost:8080)
+👉 http://localhost:8080
 
 ### 🔐 Credenciales
 
@@ -54,7 +53,4 @@ docker-compose down
 
 ```bash
 docker-compose down -v
-```
-
-```
 ```
